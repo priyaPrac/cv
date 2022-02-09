@@ -11,7 +11,7 @@ const projects = [
         title : "React Mini Projects",
         subtitle : "React js",
         description : "This repository contains a collection of React-based mini projects. I learned about React components, hooks, props, states, and effects as a result of these projects.",
-        image : "/public/images/react-mini-projects.jpg",
+        image : "/cv/public/images/react-mini-projects.jpg",
         link : "https://github.com/priya7401/React-mini-projects",
     },
 
