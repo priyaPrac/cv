@@ -11,14 +11,14 @@ function Project () {
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /> </svg>
                 </div>  
                 <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white"> Apps I've Built </h1>             
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quilaborum quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus? </p>
+                {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quilaborum quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus? </p> */}
             </div>
 
             <div className="flex flex-wrap -m-4">
                 {projects.map((project) => (
                 <a href={project.link} key={project.image} className="sm:w-1/2 w-100 p-4">
                     <div className="flex relative">
-                        <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={project.image} />
+                        <img alt="gallery" className="absolute inset-0 w-full h-full object-contain object-center" src={project.image} />
                         <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                             <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1"> {project.subtitle} </h2>
                             <h1 className="title-font text-lg font-medium text-white mb-3"> {project.title} </h1>

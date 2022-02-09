@@ -9,9 +9,9 @@ function Skills () {
                     <h1 className="sm: text-4xl temxt-3xl font-medium title-font text-white mb-4">
                         Skills and Technologies
                     </h1>
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto ">
+                    {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto ">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quilaborum quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus?
-                    </p>
+                    </p> */}
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                     {skills.map((skill) => (
