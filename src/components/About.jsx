@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../images/pg1.jpg";
 
 function About () {
     return ( 
@@ -17,7 +18,7 @@ function About () {
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img className="object-cover object-center rounded" alt="hero" src="/images/pg1.jpg" />
+                    <img className="object-cover object-center rounded" alt="hero" src={img} />
                 </div>
             </div>
         </section>
